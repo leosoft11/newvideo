@@ -21,13 +21,10 @@ window.onscroll = function() {
 };
 
 function myFunction() {
-  if (document.documentElement.scrollTop > 500)  {
-    var newDiv = document.createElement('div')
-     newDiv.className = 'my-class'
-
-
-
-
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+   // document.getElementById("intros").className = "slideUp";
+   document.getElementById("intros").classList.add("lol")
+   
 
   }
 }
