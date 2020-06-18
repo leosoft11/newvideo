@@ -63,7 +63,7 @@ nav {
 }
 
 .lol{
-  
+
 }
 
 .intro {
@@ -118,6 +118,43 @@ nav {
 .intro-contacts p {
   font-size: 18px;
   margin-right: 30px;
+}
+
+.stats{
+  display: flex;
+  margin-top: 150px;
+}
+
+.stats-line{
+  display: flex;
+}
+
+.stats-text{
+  padding: 40px;
+  
+}
+
+.stats-text h2{
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.stats-text p{
+  margin-top: 50px;
+  font-size: 13px;
+  line-height: 27px;
+}
+
+.square{
+  width: 200px;
+  height: 200px;
+  background-color: #f6f5f4;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 @media screen and (max-width: 823px) {
