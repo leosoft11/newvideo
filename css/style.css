@@ -1,10 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-body, html {
+body,
+html {
   overflow-x: hidden;
 }
 
@@ -13,7 +14,6 @@ nav {
   max-width: 1100px;
   width: 100%;
 }
-
 
 #checkbox-menu,
 .toogle {
@@ -37,7 +37,7 @@ nav {
   align-self: center;
   font-size: 13px;
   padding: 10px 15px;
-  transition: background .2s linear;
+  transition: background 0.2s linear;
 }
 
 .menu li a:hover {
@@ -58,12 +58,9 @@ nav {
   margin: 0 auto;
   max-width: 1100px;
   width: 100%;
-
-
 }
 
-.lol{
-
+.lol {
 }
 
 .intro {
@@ -71,16 +68,12 @@ nav {
   position: relative;
   display: flex;
   justify-content: center;
-
-
 }
 
 #videoBG {
   width: 965px;
   position: absolute;
 }
-
-
 
 .intro-img {
   width: 965px;
@@ -120,32 +113,31 @@ nav {
   margin-right: 30px;
 }
 
-.stats{
+.stats {
   display: flex;
   margin-top: 150px;
 }
 
-.stats-line{
+.stats-line {
   display: flex;
 }
 
-.stats-text{
+.stats-text {
   padding: 40px;
-  
 }
 
-.stats-text h2{
+.stats-text h2 {
   font-size: 40px;
   margin-bottom: 70px;
 }
 
-.stats-text p{
+.stats-text p {
   margin-top: 50px;
   font-size: 13px;
   line-height: 27px;
 }
 
-.square{
+.square {
   width: 200px;
   height: 200px;
   background-color: #f6f5f4;
@@ -154,7 +146,6 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 @media screen and (max-width: 823px) {
@@ -167,20 +158,20 @@ nav {
     width: 100%;
     color: #000;
     background: #ffcc01;
-    transition: all .1s linear;
+    transition: all 0.1s linear;
   }
 
   .toogle:hover {
     background: #d3a900;
   }
 
-  #checkbox-menu:checked+label .touch li {
+  #checkbox-menu:checked + label .touch li {
     opacity: 1;
     visibility: visible;
-    transition: all .7s linear;
+    transition: all 0.7s linear;
   }
 
-  #checkbox-menu:checked+label .touch {
+  #checkbox-menu:checked + label .touch {
     height: 350px;
   }
 
@@ -190,7 +181,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 0;
-    transition: height .4s linear;
+    transition: height 0.4s linear;
   }
 
   .menu li {
