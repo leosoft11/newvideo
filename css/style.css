@@ -224,4 +224,8 @@ nav {
     font-size: 14px;
     margin-right: 8px;
   }
+
+  .stats {
+    display: list-item;
+  }
 }
