@@ -58,7 +58,6 @@ nav {
   margin: 0 auto;
   max-width: 1100px;
   width: 100%;
-
 }
 
 .lol {}
@@ -163,11 +162,10 @@ nav {
   margin: 20px;
 }
 
-.box:hover{
-    background-color: #ffcc01;
-    transition: 1s;
-    transform: scale(1.2) rotate(3deg);
-
+.box:hover {
+  background-color: #ffcc01;
+  transition: 1s;
+  transform: scale(1.2) rotate(3deg);
 }
 
 .text-header {
@@ -180,6 +178,32 @@ nav {
 
 .logo-cart img {
   margin-left: 100px;
+}
+
+.block {
+  min-height: 120px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block__element {
+  margin: auto;
+}
+
+.block__element-box {
+  display: flex;
+  align-items: center;
+}
+
+.block__img {
+  margin-right: 10px;
+}
+
+.title{
+  color: #fff;
+  font-size: 17px;
 }
 
 @media screen and (max-width: 823px) {
